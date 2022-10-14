@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657559267-XwG5GJxr" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "ยินดีด้วย คุณได้รับทุน",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🛕 MUMMY 🛕",
+                "align": "center",
+                "weight": "bold",
+                "color": "#FFFACD",
+                "size": "lg",
+                "offsetBottom": "none"
+              },
+              {
+                "type": "text",
+                "align": "center",
+                "weight": "bold",
+                "size": "sm",
+                "color": "#FFFACD",
+                "offsetBottom": "xs",
+                "text": "เว็บสล็อตที่ดีที่สุดอันดับ 1  ",
+                "margin": "none"
+              }
+            ],
+            "paddingAll": "none",
+            "borderWidth": "light",
+            "cornerRadius": "lg",
+            "borderColor": "#FFFACD",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#ffcc33",
+              "centerColor": "#000000"
+            },
+            "spacing": "none"
+          }
+        ],
+        "paddingAll": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none",
+        "paddingEnd": "sm",
+        "paddingStart": "sm",
+        "margin": "none",
+        "offsetBottom": "none",
+        "offsetTop": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1028671866866520095/1029788695311691876/mummy-03.jpg",
+            "size": "full"
+          }
+        ],
+        "margin": "xl",
+        "borderWidth": "normal",
+        "cornerRadius": "xl",
+        "borderColor": "#000000"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "💛 รับเครดิตฟรี 50  💛",
+                    "weight": "bold",
+                    "align": "center",
+                    "color": "#FFFFE0",
+                    "size": "lg"
+                  }
+                ],
+                "borderWidth": "normal",
+                "cornerRadius": "xl",
+                "borderColor": "#ffcc33",
+                "backgroundColor": "#000000"
+              },
+              {
+                "type": "text",
+                "align": "center",
+                "weight": "bold",
+                "size": "md",
+                "color": "#ffffff",
+                "offsetBottom": "none",
+                "text": "ไม่ต้องฝาก ก็รับได้",
+                "margin": "sm"
+              },
+              {
+                "type": "text",
+                "align": "center",
+                "weight": "bold",
+                "size": "md",
+                "color": "#ffffff",
+                "offsetBottom": "none",
+                "text": "แจกเครดิตฟรี ไม่จำกัด ‼️"
+              },
+              {
+                "type": "text",
+                "text": "🔻 สมาชิกใหม่รับ 150 % 🔺",
+                "weight": "bold",
+                "align": "center",
+                "color": "#CC0000"
+              }
+            ],
+            "paddingAll": "md",
+            "borderWidth": "light",
+            "cornerRadius": "xl",
+            "borderColor": "#ffcc33",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#ffcc33"
+            },
+            "spacing": "xs"
+          }
+        ],
+        "paddingEnd": "md",
+        "paddingStart": "md",
+        "offsetBottom": "md",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รับเครดิตฟรี ",
+                "weight": "bold",
+                "align": "center",
+                "color": "#FFFACD"
+              }
+            ],
+            "paddingEnd": "xl",
+            "borderColor": "#ffcc33",
+            "borderWidth": "light",
+            "cornerRadius": "xl",
+            "backgroundColor": "#00FF00",
+            "paddingStart": "xl",
+            "paddingAll": "md",
+            "margin": "xs",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#ffcc33",
+              "centerColor": "#000000"
+            },
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://lin.ee/MTx4bKz"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "สมัครสมาชิก",
+                "weight": "bold",
+                "align": "center",
+                "size": "md",
+                "color": "#FFFACD"
+              }
+            ],
+            "borderColor": "#ffcc33",
+            "borderWidth": "light",
+            "cornerRadius": "xl",
+            "paddingEnd": "xl",
+            "paddingStart": "xl",
+            "backgroundColor": "#FF0000",
+            "margin": "xs",
+            "paddingAll": "md",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#ffcc33",
+              "centerColor": "#000000"
+            },
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://www.autopg777.com/"
+            }
+          }
+        ],
+        "borderWidth": "light",
+        "cornerRadius": "xxl",
+        "paddingAll": "xs"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#000000",
+      "endColor": "#000000",
+      "centerColor": "#ffcc33"
+    },
+    "paddingAll": "sm",
+    "cornerRadius": "xl",
+    "borderWidth": "semi-bold",
+    "borderColor": "#000000"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
